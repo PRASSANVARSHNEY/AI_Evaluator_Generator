@@ -1,0 +1,9 @@
+It's not possible to create meaningful multiple-choice questions from the text "1234" as it lacks any context or information to base questions on. 
+
+To generate MCQs, please provide a different text that includes concepts, facts, or a story. 
+
+For example, you could give me a text like:
+
+"The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower." 
+
+Let me know if you have a different text in mind!
