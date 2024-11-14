@@ -81,10 +81,9 @@
             <div class="mcq">
                 <div class="question">{{ mcq['question'] }}</div>
                 <div class="options">
-                    <div class="option">A) {{ mcq['optionA'] }}</div>
-                    <div class="option">B) {{ mcq['optionB'] }}</div>
-                    <div class="option">C) {{ mcq['optionC'] }}</div>
-                    <div class="option">D) {{ mcq['optionD'] }}</div>
+                    {% for key, value in mcq['options'].items() %}
+                        <div class="option">{{ key }}) {{ value }}</div>
+                    {% endfor %}
                 </div>
                 <div class="correct-answer">
                     Correct Answer: {{ mcq['correct_answer'] }}
